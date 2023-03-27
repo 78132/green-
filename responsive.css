@@ -1,0 +1,28 @@
+@media only screen and (max-width:650px){
+
+    header{
+        position: absolute;
+    }
+    #icon-menu{
+        visibility: visible;
+        display: inline-block;
+    }
+    nav ul, nav:active ul{
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: rgb(56, 182, 56);
+        right: 10px;
+        top: 35px;
+        width: 35%;
+    }
+    nav:hover ul{
+        display: block;
+    }
+    nav li{
+        text-align: center;
+        width: 100%;
+        padding: 15px;
+        margin: 0;
+    }
+}
